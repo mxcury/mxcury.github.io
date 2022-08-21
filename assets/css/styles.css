@@ -1,8 +1,8 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root{
-
     --header--height: 3rem;
     --nav-width: 324px;
 
@@ -28,7 +28,7 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*===== Margenes =====*/
+  /*===== Margins =====*/
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
