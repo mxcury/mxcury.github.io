@@ -68,6 +68,14 @@ body{
     line-height: 1.6;
 }
 
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    padding: 80px 3vw;
+}
+
 h1,h2,h3,p{
     margin: 0;
 }
@@ -93,9 +101,9 @@ img{
     display: block;
 }
 /*===== CLASS CSS ===== */
+
 .section {
     padding: 4rem 0 2rem;
-    margin-bottom: var(--mb-2);
 }
 
 .section-title{
@@ -394,6 +402,22 @@ img{
 .skills__sql{
     width: 70%;
 }
+
+.tools__container{
+    padding: 20px;
+}
+
+.tools__content{
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.tools__data{
+    padding-left: 10px;
+
+}
 /* ===== PROJECTS  =====*/
 .projects__container{
     justify-items: center;
@@ -501,6 +525,26 @@ img{
     transform: translate(5px, -4px);
 }
 
+.education__module{
+    padding: 30px;
+}
+
+.module__list{
+    margin-left: 10px;
+}
+
+.module-data{
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.module-icon{
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-2);
+}
+
 /* ===== EXPERIENCE =====*/
 
 
@@ -556,7 +600,8 @@ img{
         width: var(--nav-width);
     }
 
-    .about__container{
+    .about__container,
+    .education__module{
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -620,6 +665,8 @@ img{
 
         .section{
             padding: 3rem 0 2rem;
+            margin-top: 70px;
+            margin-bottom: 70px;
         }
 
         .bd-grid{
