@@ -122,6 +122,22 @@ img{
     margin-bottom: .25rem;
 }
 
+.spacer{
+    aspect-ratio: 1024/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer-top{
+    background-image: url('../img/wave.svg');
+}
+
+.layer-bottom{
+    background-image: url('../img/waves-bottom.svg');
+}
+
 /*===== LAYOUT =====*/
 .bd-grid{
     display: grid;
@@ -527,6 +543,7 @@ img{
 
 .education__module{
     padding: 30px;
+    padding-top: 50px;
 }
 
 .module__list{
@@ -672,7 +689,6 @@ img{
         .bd-grid{
             margin-left: auto;
             margin-right: auto;
-            padding-top: 10px;
             padding-bottom: 10px;
         }
     }
