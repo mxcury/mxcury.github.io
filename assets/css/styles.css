@@ -441,7 +441,8 @@ img{
 }
 
 .projects__img{
-    size: 75%;
+    height: calc(420px * 0.5);
+    width: calc(640px * 0.5);
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
@@ -459,6 +460,7 @@ img{
     background: rgba(204, 75, 44, .7);
     border-radius: .5rem;
     transition: .3s;
+    text-align: center;
 }
 
 .projects__link{
@@ -477,7 +479,7 @@ img{
 }
 
 .projects__description{
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     color: var(--first-color-light);
 }
 
