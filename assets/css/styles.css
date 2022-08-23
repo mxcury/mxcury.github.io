@@ -476,11 +476,13 @@ img{
 .projects__title{
     font-size: var(--h2-font-size);
     color: var(--first-color--lighten);
+    text-align: center;
 }
 
 .projects__description{
     font-size: var(--smaller-font-size);
     color: var(--first-color-light);
+    text-align: center;
 }
 
 .projects__img:hover .projects__data{
