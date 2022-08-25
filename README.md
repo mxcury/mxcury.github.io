@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=300px height=200px src="/mxcury.github.io/website.png" alt="example"></a>
+ <img height=75% width=75% src="website.png" alt="example"></a>
 </p>
 
 <h3 align="center">My Personal Portfolio Website</h3>
