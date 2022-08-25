@@ -1,114 +1,51 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=300px height=200px src="/mxcury.github.io/website.png" alt="example"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
+<h3 align="center">My Personal Portfolio Website</h3>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center">This project was made to display my web capabilities in HTML, CSS and JavaScript. It was also made to show viewers my projects that are present on my GitHub and projects I'm proud of.
     <br> 
 </p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Built Using](#️built_using)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+#### This project contains the sections :
+- Home page 
+  
+  My home page contains a profile picture and links to my social media platforms such as GitHub and LinkedIn. There is also a link to download my CV (resume) for potential employers or people who want to look at my CV.
+- About Me
+  
+  The "about me" section is fairly self explanatory, it contains gives a brief description of myself and a picture. It also contains contact information such as my email. My experience and achievements are also presented such as my project count and current grade at university.
+- Skills & Tools
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+  This contains my approximate "confidence" for the languages for example I believe I am 90% confident with Java where as only 30% with C++. This shows my strengths as well as weaknesses and areas for improvement. My 'tools' are also shown such as using Git and using SQL.  
+- Projects
+  
+  My GitHub projects are shown here. A small image of the project with its name and a small description, like its purpose and the language it was coded in. There is also a link to my other projects not shown as it only shows my favorite projects.
+- Education
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+  This shows my education timeline from secondary school to university. It shows the time I was present, the institution and what I was working on at that time in relation to my coding experience. It also shows my university modules for viewers to see what programming languages I have experience in.
+- Experience
 
-### Prerequisites
+  This shows my work experience timeline. It will show previous positions, internships, work placements and current positions. 
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [HTML](https://html.com)
+- [CSS](https://css.com)
+- [Java](https://javascript.com)
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [@mxcury](https://github.com/mxcury) - Idea & Work
