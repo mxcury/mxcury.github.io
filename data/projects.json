@@ -1,0 +1,69 @@
+{
+	"data": [
+		{
+			"name": "Fund Flow",
+			"year": 2024,
+			"demoUrl": "https://fundflow.com/sign-up",
+			"content": [
+				"FundFlow is {{full-stack}} automated banking app that I built in order to provide {{high-quality}} and {{easy to use}} bank transfers between personal bank accounts.",
+				"It was built after I realised managing multiple direct debits in separate apps was getting too complicated.",
+				"FundFlow is designed using {{Next.js}} as a front-end framework, and {{Appwrite}} as a backend framework for managing user data and transactions",
+				"It uses banking technologies such as {{Plaid}} and {{Dwolla}} to link between accounts"
+			],
+			"technologies": [
+				"{{Next.js}}",
+				"{{TailwindCSS}}",
+				"TypeScript",
+				"CSS",
+				"{{AppWrite}}"
+			]
+		},
+		{
+			"name": "Slime Mould Colony Simulation",
+			"year": 2024,
+			"githubUrl": "https://github.com/mxcury/slimeMoldColony",
+			"content": [
+				"The {{Slime Mould Colony Simulation}} is a {{C++}} project that models the behavior of the slime mold Physarum polycephalum.",
+				"In this simulation, {{complex patterns}} and {{evolutionary behaviors}} emerge from the interactions of simple, {{particle-like agents}} governed by a straightforward {{local ruleset}}.",
+				"The project demonstrates how intricate structures can arise from basic algorithms, reflecting the {{self-organizing}} nature of {{biological systems}}."
+			],
+			"technologies": ["{{C++}}"]
+		},
+		{
+			"name": "Custom Programming Language",
+			"year": 2024,
+			"githubUrl": "https://github.com/mxcury/pCubedLang",
+			"content": [
+				"The project involved designing a {{syntax}} and {{grammar}} that could be easily parsed and interpreted.",
+				"I implemented the {{lexer}} to break down the pseudocode into {{tokens}} for processing.",
+				"The custom language supports basic {{control structures}} and {{data types}}, allowing for simple program logic.",
+				"Through this project, I gained a deeper understanding of {{language design}} and {{compiler theory}}."
+			],
+			"technologies": ["{{Python}}"]
+		},
+		{
+			"name": "Rust HTTP Server",
+			"year": 2024,
+			"githubUrl": "https://github.com/mxcury",
+			"content": [
+				"The project is a {{Rust}}-based {{HTTP server}} designed to handle {{curl requests}} efficiently.",
+				"It utilizes {{JSON objects}} to {{store documents}}, enabling flexible data management.",
+				"The server supports basic {{CRUD operations}}, allowing users to create, read, update, and delete documents.",
+				"I implemented robust {{error handling}} and {{logging}} to ensure reliable performance and ease of debugging."
+			],
+			"technologies": ["{{Rust}}"]
+		},
+		{
+			"name": "Convolutional Neural Network",
+			"year": 2020,
+			"githubUrl": "https://github.com/mxcury/convNet",
+			"content": [
+				"The project features a {{Convolutional Neural Network (CNN)}} written entirely from scratch in {{Java}}.",
+				"I designed the {{user interface (UI)}} using {{Java Swing}}, providing an interactive experience for users.",
+				"The CNN uses the {{Extended MNIST dataset}} for {{optical character recognition (OCR)}} tasks.",
+				"The implementation does not rely on any {{pre-existing libraries}}, showcasing a custom approach to neural network development."
+			],
+			"technologies": ["{{Java}}, Java Swing for UI"]
+		}
+	]
+}

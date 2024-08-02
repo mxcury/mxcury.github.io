@@ -1,0 +1,35 @@
+{
+	"data": [
+		{
+			"content": [
+				"Hi, I'm {{Tom Flattery}}",
+				"I'm a final year Computer Science student at the University of Nottingham."
+			]
+		},
+		{
+			"content": [
+				"Although my main intrest is machine learning, most of my professional experience has been as a DevOps engineer.",
+				"I also enjoy writing techincal documentation such as creating runbooks and buidling dev tools utilising Docker and kubernetes. ."
+			]
+		},
+		{
+			"content": [
+				"Another great interest of mine is low level programming, such as Rust and C++. Some of my previous projects have been building Rust HTTP servers and Cellular Automata Simulations in C++.",
+				"As a driven developer, I'm always looking for new challenges and opportunities to learn."
+			]
+		},
+		{
+			"content": [
+				"To connect with me on LinkedIn: <a href=\"https://www.linkedin.com/in/mxcury/\" target=\"_blank\" class=\"text-blue\">LinkedIn</a>.",
+				"Or to see my github contributions: <a href=\"https://www.github.com/mxcury/\" target=\"_blank\" class=\"text-pink\">GitHub</a>.",
+				"You can find my CV over here => <a href=\"https://docs.google.com/document/d/e/2PACX-1vSt5UTqB3GBD1yUEAiRq1YThsKjbd9vEUE9ZcqVhcYlWm2G2B7EycDM5WWSc2B21eBf_jIfC5m2lg0Y/pub\" class=\"text-orange\">Curriculum Vitae</a>."
+			]
+		},
+		{
+			"content": [
+				"{{Click}} on a section on the left to learn more about my {{work}} and past {{experiences}}.",
+				"You can also {{navigate}} through the sections using the {{arrow keys}} or {{Vim motions}}."
+			]
+		}
+	]
+}

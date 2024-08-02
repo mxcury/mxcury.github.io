@@ -1,0 +1,34 @@
+{
+	"data": [
+		{
+			"name": "Placement Student",
+			"company": "Couchbase Inc",
+			"date": "Jul 2023 - Jun 2024",
+			"title": "Industrial Placement Student",
+			"content": [
+				"I have extensive experience in cloud database health monitoring, having utilized {{Grafana}} with {{Prometheus}} and {{Golang}} endpoints to create dashboards, and developed a {{DataDog}} wrapper API for business insights.",
+				"I also built internal tools using {{Amazon S3}} and {{Python}} for log parsing, provided technical support for {{Kubernetes}} and Couchbase-related database issues, and authored documentation for infrastructure setup using {{Docker}}, EC2, {{Terraform}}, and Kubernetes."
+			]
+		},
+		{
+			"name": "Production Operative",
+			"company": "Bakkavor Bread Aston",
+			"date": "Jun 2022 - Aug 2022",
+			"title": "Full-stack TypeScript developer (React, React Native, Node.js, PostgreSQL, GraphQL, TypeORM, TailwindCSS)",
+			"content": [
+				"I was responsible for quality assurance in a fast-paced, high-pressure production environment, ensuring products met customer expectations.",
+				"I developed strong {{time management}} skills and the ability to quickly {{adapt}} to unfamiliar situations."
+			]
+		},
+		{
+			"name": "Data Admin",
+			"company": "Kiltearn Medical Centre",
+			"date": "Jul 2019 - Apr 2020",
+			"title": "Data Handling Support",
+			"content": [
+				"I {{processed}} confidential {{medical data}} using NHS software like DocMan and EMIS, contributing to the NHS's digital enablement by digitizing records.",
+				"Additionally, I assisted patients at the front desk and collaborated with nurses and doctors to schedule appointments"
+			]
+		}
+	]
+}

@@ -1,0 +1,224 @@
+{
+	"data": [
+		{
+			"name": "Java",
+			"logo": "images/icons/java.svg",
+			"content": [
+				"I have built {{scalable backend systems}} and applications using {{Java}}.",
+				"Java is known for its {{performance}}, {{portability}}, and {{robustness}}.",
+				"Using Java, I have developed {{enterprise-level applications}} and {{APIs}}.",
+				"It is a powerful language for {{object-oriented programming}} and {{large-scale systems}}."
+			],
+			"percentage": 75
+		},
+		{
+			"name": "Python",
+			"logo": "images/icons/python.svg",
+			"content": [
+				"I have used {{Python}} for {{data analysis}}, {{web development}}, {{automation scripts}}, and {{machine learning}} projects.",
+				"Python is versatile and known for its {{readability}} and {{simplicity}}.",
+				"Using Python, I have developed {{web applications}}, {{data pipelines}}, and {{ML models}}.",
+				"It is a preferred language for {{rapid prototyping}} and {{scientific computing}}."
+			],
+			"percentage": 85
+		},
+		{
+			"name": "C/C++",
+			"logo": "images/icons/c-plus-plus.svg",
+			"content": [
+				"I have developed {{performance-critical applications}} and {{system-level programming}} with {{C/C++}}.",
+				"C/C++ provides {{low-level control}} and {{high efficiency}} for {{resource-intensive tasks}}.",
+				"Using C/C++, I have created {{embedded systems}}, {{game engines}}, and {{real-time applications}}.",
+				"It is essential for applications requiring {{high performance}} and {{low latency}}."
+			],
+			"percentage": 70
+		},
+		{
+			"name": "Golang",
+			"logo": "images/icons/go.svg",
+			"content": [
+				"I have created {{high-performance}} and {{concurrent applications}} using {{Golang}}.",
+				"Golang is known for its {{simplicity}} and {{efficiency}} in {{networked services}}.",
+				"Using Golang, I have developed {{microservices}}, {{web servers}}, and {{distributed systems}}.",
+				"It is a powerful language for {{concurrency}} and {{scalable software}}."
+			],
+			"percentage": 65
+		},
+		{
+			"name": "Rust",
+			"logo": "images/icons/rust.svg",
+			"content": [
+				"I have developed {{safe}} and {{concurrent systems programming}} with {{Rust}}.",
+				"Rust provides {{memory safety}} and {{performance}} for {{system-level applications}}.",
+				"Using Rust, I have worked on {{embedded systems}}, {{network services}}, and {{performance-critical applications}}.",
+				"It is a preferred language for {{systems programming}} and {{highly concurrent applications}}."
+			],
+			"percentage": 60
+		},
+		{
+			"name": "Bash",
+			"logo": "images/icons/bash.svg",
+			"content": [
+				"I have automated {{system tasks}} and {{scripting}} with {{Bash}}.",
+				"Bash is essential for {{command-line operations}} and {{shell scripting}}.",
+				"Using Bash, I have created {{automation scripts}}, {{system monitoring}}, and {{task automation}}.",
+				"It is a powerful tool for {{Unix-based systems}} and {{administrative tasks}}."
+			],
+			"percentage": 75
+		},
+		{
+			"name": "HTML",
+			"logo": "images/icons/html.svg",
+			"content": [
+				"I have used {{HTML}} to create {{responsive web pages}} and {{structure}} content effectively.",
+				"HTML is fundamental for {{web development}}, allowing the creation of structured documents.",
+				"With HTML, I have built numerous {{websites}} and {{web applications}}, ensuring semantic markup.",
+				"I have utilized HTML for nearly {{10 years}}, making it a core skill in my {{development toolkit}}."
+			],
+			"percentage": 90
+		},
+		{
+			"name": "CSS",
+			"logo": "images/icons/css.svg",
+			"content": [
+				"I have styled web applications with {{CSS}} to create {{visually appealing}} designs.",
+				"CSS enables the {{customization}} of web pages, making them more {{attractive}} and {{user-friendly}}.",
+				"Over the years, I have used CSS for {{layout design}}, {{animations}}, and {{responsive design}}.",
+				"CSS is a powerful tool for ensuring that web content is {{accessible}} and {{engaging}}."
+			],
+			"percentage": 85
+		},
+		{
+			"name": "Tailwind CSS",
+			"logo": "images/icons/tailwind-css.svg",
+			"content": [
+				"I have utilized {{Tailwind CSS}} for {{utility-first styling}} in modern web projects.",
+				"Tailwind CSS allows for {{rapid prototyping}} and {{consistent design patterns}}.",
+				"With Tailwind, I have built {{scalable}} and {{maintainable}} web interfaces.",
+				"It has been instrumental in improving my {{development speed}} and {{design accuracy}}."
+			],
+			"percentage": 75
+		},
+		{
+			"name": "JavaScript",
+			"logo": "images/icons/js.svg",
+			"content": [
+				"{{JavaScript}} is the {{cogs}} of the {{world wide web}}, used to {{power}} the content of a {{website}} and make things {{interactive}}.",
+				"I have been using JavaScript for nearly {{10 years}} to build solutions from {{websites}} to {{mobile apps}}, even desktop applications like {{video games}}.",
+				"A joke about JavaScript goes: {{JavaScript}} is so {{fast}} that it can {{render}} a {{progress bar}} in {{1 second}}.",
+				"I prefer using the right tool for the job and use JavaScript for {{prototyping}} and {{rapid development}} when {{time}} is of the essence."
+			],
+			"percentage": 80
+		},
+		{
+			"name": "TypeScript",
+			"logo": "images/icons/ts.svg",
+			"content": [
+				"I have developed {{robust}} and {{maintainable}} codebases with {{TypeScript}} for large-scale applications.",
+				"TypeScript enhances {{JavaScript}} with {{static typing}} and {{type safety}}, making code more {{reliable}}.",
+				"Using TypeScript, I have worked on projects requiring {{strict type-checking}} and {{error prevention}}.",
+				"It has been a valuable tool for {{scalable}} and {{enterprise-level}} applications."
+			],
+			"percentage": 70
+		},
+		{
+			"name": "Next.js",
+			"logo": "images/icons/nextjs.svg",
+			"content": [
+				"I have built {{server-side rendered applications}} with {{Next.js}} for improved performance and {{SEO}}.",
+				"Next.js simplifies {{routing}} and {{static site generation}}, making it ideal for {{modern web development}}.",
+				"With Next.js, I have created {{dynamic}} and {{scalable}} web applications.",
+				"It is a powerful framework for {{React}} applications, offering {{performance optimization}}."
+			],
+			"percentage": 65
+		},
+		{
+			"name": "MySQL",
+			"logo": "images/icons/mysql.svg",
+			"content": [
+				"I have managed {{relational databases}} and performed {{complex queries}} using {{MySQL}}.",
+				"MySQL has been crucial for {{data storage}} and {{retrieval}} in various projects.",
+				"I have used MySQL for {{database design}}, {{optimization}}, and {{management}}.",
+				"It is a reliable tool for ensuring {{data integrity}} and {{efficient querying}}."
+			],
+			"percentage": 75
+		},
+		{
+			"name": "Couchbase",
+			"logo": "images/icons/couchbase.svg",
+			"content": [
+				"I have handled {{NoSQL database operations}} efficiently with {{Couchbase}}.",
+				"Couchbase provides {{flexibility}} and {{scalability}} for {{modern applications}}.",
+				"Using Couchbase, I have developed applications requiring {{high performance}} and {{low latency}}.",
+				"It has been essential for {{real-time data processing}} and {{distributed database systems}}."
+			],
+			"percentage": 60
+		},
+		{
+			"name": "Docker",
+			"logo": "images/icons/docker.svg",
+			"content": [
+				"I have containerized applications and managed dependencies using {{Docker}}.",
+				"Docker simplifies {{deployment}} and {{scalability}} by creating {{consistent environments}}.",
+				"I have used Docker for {{microservices architecture}} and {{CI/CD pipelines}}.",
+				"It enhances {{portability}} and {{resource efficiency}} across various development stages."
+			],
+			"percentage": 70
+		},
+		{
+			"name": "AWS",
+			"logo": "images/icons/aws.svg",
+			"content": [
+				"I have deployed and managed {{cloud infrastructure}} and {{services}} on {{AWS}}.",
+				"AWS provides {{scalable}} and {{reliable}} solutions for {{cloud computing}} needs.",
+				"Using AWS, I have implemented {{cloud storage}}, {{computing}}, and {{networking services}}.",
+				"It has been essential for {{scalable deployments}} and {{cost-effective solutions}}."
+			],
+			"percentage": 65
+		},
+		{
+			"name": "Terraform",
+			"logo": "images/icons/terraform-enterprise.svg",
+			"content": [
+				"I have automated {{infrastructure provisioning}} and {{management}} with {{Terraform}}.",
+				"Terraform enables {{infrastructure as code}}, simplifying {{deployment}} and {{scalability}}.",
+				"Using Terraform, I have created {{reproducible}} and {{version-controlled}} infrastructure.",
+				"It has been crucial for {{multi-cloud deployments}} and {{automated workflows}}."
+			],
+			"percentage": 60
+		},
+		{
+			"name": "Kubernetes",
+			"logo": "images/icons/kubernetes.svg",
+			"content": [
+				"I have orchestrated {{containerized applications}} using {{Kubernetes}}.",
+				"Kubernetes provides {{scalability}} and {{resilience}} for {{container management}}.",
+				"Using Kubernetes, I have managed {{clusters}} and {{automated deployments}}.",
+				"It is essential for {{container orchestration}} and {{efficient resource management}}."
+			],
+			"percentage": 55
+		},
+		{
+			"name": "Git",
+			"logo": "images/icons/git.svg",
+			"content": [
+				"I have version controlled projects and collaborated with teams using {{Git}}.",
+				"Git enables {{distributed version control}} and {{collaborative development}}.",
+				"Using Git, I have managed {{code repositories}}, {{branches}}, and {{merge conflicts}}.",
+				"It is a vital tool for {{source code management}} and {{team collaboration}}."
+			],
+			"percentage": 85
+		},
+		{
+			"name": "Linux",
+			"logo": "images/icons/linux.svg",
+			"content": [
+				"I have configured and maintained {{systems}} and {{servers}} with {{Linux}}.",
+				"Linux provides a {{stable}} and {{secure}} environment for {{server management}}.",
+				"Using Linux, I have managed {{networking}}, {{security}}, and {{system administration}} tasks.",
+				"It is a reliable platform for {{development}} and {{deployment}} of applications."
+			],
+			"percentage": 80
+		}
+	]
+}
