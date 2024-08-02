@@ -1,8 +1,4 @@
-const IS_DEV =
-		"localhost" === window.location.hostname ||
-		"127.0.0.1" === window.location.hostname,
-	CSS_PATH = IS_DEV ? "css/tui.css" : "css/tui.min.css",
-	JS_PATH = IS_DEV ? "js/tui.js" : "js/tui.min.js";
+(CSS_PATH = "css/tui.css"), (JS_PATH = "js/tui.js");
 function loadDependency(e, t, n) {
 	let s = document.head,
 		c = document.getElementById("min-style"),
