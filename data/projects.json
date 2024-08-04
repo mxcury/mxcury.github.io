@@ -16,7 +16,8 @@
 				"TypeScript",
 				"CSS",
 				"{{AppWrite}}"
-			]
+			],
+			"images": ["fundflow-ui.png"]
 		},
 		{
 			"name": "Slime Mould Colony Simulation",
@@ -27,7 +28,8 @@
 				"In this simulation, {{complex patterns}} and {{evolutionary behaviors}} emerge from the interactions of simple, {{particle-like agents}} governed by a straightforward {{local ruleset}}.",
 				"The project demonstrates how intricate structures can arise from basic algorithms, reflecting the {{self-organizing}} nature of {{biological systems}}."
 			],
-			"technologies": ["{{C++}}"]
+			"technologies": ["{{C++}}"],
+			"images": ["slime-mould-sim.jpg"]
 		},
 		{
 			"name": "Custom Programming Language",
@@ -39,7 +41,8 @@
 				"The custom language supports basic {{control structures}} and {{data types}}, allowing for simple program logic.",
 				"Through this project, I gained a deeper understanding of {{language design}} and {{compiler theory}}."
 			],
-			"technologies": ["{{Python}}"]
+			"technologies": ["{{Python}}"],
+			"images": ["p_cubed.png"]
 		},
 		{
 			"name": "Rust HTTP Server",
@@ -51,7 +54,8 @@
 				"The server supports basic {{CRUD operations}}, allowing users to create, read, update, and delete documents.",
 				"I implemented robust {{error handling}} and {{logging}} to ensure reliable performance and ease of debugging."
 			],
-			"technologies": ["{{Rust}}"]
+			"technologies": ["{{Rust}}"],
+			"images": ["rust_http.png"]
 		},
 		{
 			"name": "Convolutional Neural Network",
@@ -63,7 +67,8 @@
 				"The CNN uses the {{Extended MNIST dataset}} for {{optical character recognition (OCR)}} tasks.",
 				"The implementation does not rely on any {{pre-existing libraries}}, showcasing a custom approach to neural network development."
 			],
-			"technologies": ["{{Java}}, Java Swing for UI"]
+			"technologies": ["{{Java}}, Java Swing for UI"],
+			"images": ["cnn.png"]
 		}
 	]
 }

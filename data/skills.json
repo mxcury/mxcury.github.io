@@ -4,9 +4,9 @@
 			"name": "Java",
 			"logo": "images/icons/java.svg",
 			"content": [
-				"I have built {{scalable backend systems}} and applications using {{Java}}.",
+				"I have built multiple {{games}} and desktop applications using {{Java}}.",
 				"Java is known for its {{performance}}, {{portability}}, and {{robustness}}.",
-				"Using Java, I have developed {{enterprise-level applications}} and {{APIs}}.",
+				"Using Java, I have developed {{enterprise-level applications}} and {{build tools}} for other applications.",
 				"It is a powerful language for {{object-oriented programming}} and {{large-scale systems}}."
 			],
 			"percentage": 75
@@ -15,10 +15,10 @@
 			"name": "Python",
 			"logo": "images/icons/python.svg",
 			"content": [
-				"I have used {{Python}} for {{data analysis}}, {{web development}}, {{automation scripts}}, and {{machine learning}} projects.",
+				"I have used {{Python}} for {{data analysis}}, {{automation scripts}}, and {{machine learning}} projects.",
 				"Python is versatile and known for its {{readability}} and {{simplicity}}.",
-				"Using Python, I have developed {{web applications}}, {{data pipelines}}, and {{ML models}}.",
-				"It is a preferred language for {{rapid prototyping}} and {{scientific computing}}."
+				"Using Python, I have developed both {{data pipelines}}, and {{ML models}}.",
+				"I have used it for {{rapid prototyping}} and {{scientific computing}} such ML models and gathering data insights."
 			],
 			"percentage": 85
 		},
@@ -26,10 +26,10 @@
 			"name": "C/C++",
 			"logo": "images/icons/c-plus-plus.svg",
 			"content": [
-				"I have developed {{performance-critical applications}} and {{system-level programming}} with {{C/C++}}.",
+				"I have developed mostly {{graphical}} projects and {{system-level}} projects with {{C/C++}}.",
 				"C/C++ provides {{low-level control}} and {{high efficiency}} for {{resource-intensive tasks}}.",
-				"Using C/C++, I have created {{embedded systems}}, {{game engines}}, and {{real-time applications}}.",
-				"It is essential for applications requiring {{high performance}} and {{low latency}}."
+				"Using C/C++, I have created {{embedded systems}} and {{graphical engines}}.",
+				"I use C/C++ for the level of {{memory control}} and for applications that require {{high performance}}."
 			],
 			"percentage": 70
 		},
@@ -37,9 +37,9 @@
 			"name": "Golang",
 			"logo": "images/icons/go.svg",
 			"content": [
-				"I have created {{high-performance}} and {{concurrent applications}} using {{Golang}}.",
+				"I have mainly used {{Golang}} whilst at {{Couchbase}} and used it for creating {{endpoints}} and {{concurrent}} functions.",
 				"Golang is known for its {{simplicity}} and {{efficiency}} in {{networked services}}.",
-				"Using Golang, I have developed {{microservices}}, {{web servers}}, and {{distributed systems}}.",
+				"Using Golang, I have developed gained insight on {{concurrent & distributed systems}} as well as building {{APIs}} for {{cloud services}}.",
 				"It is a powerful language for {{concurrency}} and {{scalable software}}."
 			],
 			"percentage": 65
@@ -48,10 +48,9 @@
 			"name": "Rust",
 			"logo": "images/icons/rust.svg",
 			"content": [
-				"I have developed {{safe}} and {{concurrent systems programming}} with {{Rust}}.",
+				"I have recently jumped onto the {{Rust}} bandwagon in order to learn more about {{memory safe}} applications.",
 				"Rust provides {{memory safety}} and {{performance}} for {{system-level applications}}.",
-				"Using Rust, I have worked on {{embedded systems}}, {{network services}}, and {{performance-critical applications}}.",
-				"It is a preferred language for {{systems programming}} and {{highly concurrent applications}}."
+				"Using Rust, I have worked on {{web applications}} using {{web assembly}} with the {{yew}} package as well as other desktop applications for {{optimal performance}}."
 			],
 			"percentage": 60
 		},
@@ -70,10 +69,10 @@
 			"name": "HTML",
 			"logo": "images/icons/html.svg",
 			"content": [
-				"I have used {{HTML}} to create {{responsive web pages}} and {{structure}} content effectively.",
+				"I have used {{HTML}} to create {{web pages}} (such as this portfolio) and {{structure}} content effectively.",
 				"HTML is fundamental for {{web development}}, allowing the creation of structured documents.",
 				"With HTML, I have built numerous {{websites}} and {{web applications}}, ensuring semantic markup.",
-				"I have utilized HTML for nearly {{10 years}}, making it a core skill in my {{development toolkit}}."
+				"I have utilized HTML for nearly {{5 years}}, making it a core skill in my {{development toolkit}}."
 			],
 			"percentage": 90
 		},
@@ -92,7 +91,7 @@
 			"name": "Tailwind CSS",
 			"logo": "images/icons/tailwind-css.svg",
 			"content": [
-				"I have utilized {{Tailwind CSS}} for {{utility-first styling}} in modern web projects.",
+				"I have utilized {{Tailwind CSS}} for {{utility-first styling}} in modern web projects for past year.",
 				"Tailwind CSS allows for {{rapid prototyping}} and {{consistent design patterns}}.",
 				"With Tailwind, I have built {{scalable}} and {{maintainable}} web interfaces.",
 				"It has been instrumental in improving my {{development speed}} and {{design accuracy}}."
@@ -103,10 +102,8 @@
 			"name": "JavaScript",
 			"logo": "images/icons/js.svg",
 			"content": [
-				"{{JavaScript}} is the {{cogs}} of the {{world wide web}}, used to {{power}} the content of a {{website}} and make things {{interactive}}.",
-				"I have been using JavaScript for nearly {{10 years}} to build solutions from {{websites}} to {{mobile apps}}, even desktop applications like {{video games}}.",
-				"A joke about JavaScript goes: {{JavaScript}} is so {{fast}} that it can {{render}} a {{progress bar}} in {{1 second}}.",
-				"I prefer using the right tool for the job and use JavaScript for {{prototyping}} and {{rapid development}} when {{time}} is of the essence."
+				"I have used {{JavaScript}},make the content of my websites {{interactive}}.",
+				"I have been using JavaScript for nearly {{3 years}} to build solutions from {{websites}} to {{mobile apps}}."
 			],
 			"percentage": 80
 		},
@@ -125,10 +122,9 @@
 			"name": "Next.js",
 			"logo": "images/icons/nextjs.svg",
 			"content": [
-				"I have built {{server-side rendered applications}} with {{Next.js}} for improved performance and {{SEO}}.",
+				"I have built {{server-side rendered applications}} with {{Next.js}} for improved performance.",
 				"Next.js simplifies {{routing}} and {{static site generation}}, making it ideal for {{modern web development}}.",
-				"With Next.js, I have created {{dynamic}} and {{scalable}} web applications.",
-				"It is a powerful framework for {{React}} applications, offering {{performance optimization}}."
+				"With Next.js, I have created {{dynamic}} and {{scalable}} web applications."
 			],
 			"percentage": 65
 		},
@@ -160,7 +156,7 @@
 			"content": [
 				"I have containerized applications and managed dependencies using {{Docker}}.",
 				"Docker simplifies {{deployment}} and {{scalability}} by creating {{consistent environments}}.",
-				"I have used Docker for {{microservices architecture}} and {{CI/CD pipelines}}.",
+				"I have used Docker for {{development environments}} such as running SDK code on linux image for users to easily start up applications.",
 				"It enhances {{portability}} and {{resource efficiency}} across various development stages."
 			],
 			"percentage": 70
@@ -170,9 +166,9 @@
 			"logo": "images/icons/aws.svg",
 			"content": [
 				"I have deployed and managed {{cloud infrastructure}} and {{services}} on {{AWS}}.",
-				"AWS provides {{scalable}} and {{reliable}} solutions for {{cloud computing}} needs.",
-				"Using AWS, I have implemented {{cloud storage}}, {{computing}}, and {{networking services}}.",
-				"It has been essential for {{scalable deployments}} and {{cost-effective solutions}}."
+				"I have created custom {{AMI}} images and managed {{EC2}} instances.",
+				"Using AWS, I have implemented {{cloud storage}} using S3 buckets, {{computing}}, and {{networking services}}.",
+				"It has been essential for {{scalable deployments}} and building applications."
 			],
 			"percentage": 65
 		},

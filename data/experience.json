@@ -8,7 +8,8 @@
 			"content": [
 				"I have extensive experience in cloud database health monitoring, having utilized {{Grafana}} with {{Prometheus}} and {{Golang}} endpoints to create dashboards, and developed a {{DataDog}} wrapper API for business insights.",
 				"I also built internal tools using {{Amazon S3}} and {{Python}} for log parsing, provided technical support for {{Kubernetes}} and Couchbase-related database issues, and authored documentation for infrastructure setup using {{Docker}}, EC2, {{Terraform}}, and Kubernetes."
-			]
+			],
+			"images": ["grafana-dashboard.png"]
 		},
 		{
 			"name": "Production Operative",

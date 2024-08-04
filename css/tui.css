@@ -161,14 +161,15 @@ svg {
 	flex: 1;
 }
 
-#left-section .container:hover:not(.selected-frame) {
-	border-color: var(--border);
-}
-
 .container-content {
 	display: flex;
 	flex-direction: column;
-	overflow: hidden;
+	overflow: hidden; /* Ensure no scrollbars */
+	flex: 1;
+}
+
+#left-section .container:hover:not(.selected-frame) {
+	border-color: var(--border);
 }
 
 .outer-paragraph-container {
@@ -190,11 +191,36 @@ svg {
 }
 
 .image-inner-container {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	width: 70%;
 	padding: 0.5rem;
+}
+
+.image-inner-container::before,
+.image-inner-container::after {
+	content: "";
+	position: absolute;
 	border: 0.1px solid var(--light-blue);
+}
+
+.image-inner-container::before {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 10px;
+	height: 100%;
+	border-right: none;
+}
+
+.image-inner-container::after {
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 100%;
+	border-left: none;
 }
 
 .project-image {
@@ -360,6 +386,23 @@ div.selected-frame > ::-webkit-scrollbar-thumb {
 .selected-item,
 .selected-item div {
 	background-color: var(--secondary-bg);
+}
+
+.pipes pre {
+	white-space: pre;
+	display: inline-block;
+	margin: 0; /* Remove any default margin */
+	line-height: 1; /* Ensure no extra space between lines */
+}
+
+.pipes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden; /* Ensure no scrollbars */
+	width: 100%;
+	height: 100%;
 }
 
 .text-orange {

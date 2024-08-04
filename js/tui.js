@@ -567,7 +567,164 @@ function initTouchListeners() {
 	});
 }
 
+function pipes() {
+	const pipeElement = document.querySelector(".pipes");
+	const container = document.getElementById("pipes");
+
+	function calculateGridSize() {
+		const containerWidth = container.clientWidth;
+		const containerHeight = container.clientHeight;
+		const charWidth = 8; // Approximate width of a character in pixels
+		const charHeight = 16; // Approximate height of a character in pixels
+
+		const cols = Math.floor(containerWidth / charWidth);
+		const rows = Math.floor(containerHeight / charHeight);
+
+		return { rows, cols };
+	}
+
+	let { rows, cols } = calculateGridSize();
+
+	let grid = Array(rows)
+		.fill()
+		.map(() => Array(cols).fill(" "));
+
+	const sets = ["│┌┐─└┘"];
+	const chars = sets[Math.floor(Math.random() * sets.length)];
+	const directions = [
+		{ x: 0, y: 1, charIndex: 3 },
+		{ x: 1, y: 0, charIndex: 0 },
+		{ x: 0, y: -1, charIndex: 3 },
+		{ x: -1, y: 0, charIndex: 0 },
+	];
+	const corners = {
+		"0,1:1,0": 2,
+		"0,1:-1,0": 5,
+		"1,0:0,1": 4,
+		"1,0:0,-1": 5,
+		"0,-1:1,0": 1,
+		"0,-1:-1,0": 4,
+		"-1,0:0,1": 1,
+		"-1,0:0,-1": 2,
+	};
+
+	let x, y, currentDirection;
+	let currentColor;
+	let initialInterval = 100;
+	let intervalIncrement = 0;
+	let interval = initialInterval;
+	let intervalId;
+
+	function startAtRandomEdge() {
+		const edge = Math.floor(Math.random() * 4);
+		switch (edge) {
+			case 0:
+				x = 0;
+				y = Math.floor(Math.random() * cols);
+				currentDirection = 1;
+				break;
+			case 1:
+				x = Math.floor(Math.random() * rows);
+				y = cols - 1;
+				currentDirection = 2;
+				break;
+			case 2:
+				x = rows - 1;
+				y = Math.floor(Math.random() * cols);
+				currentDirection = 3;
+				break;
+			case 3:
+				x = Math.floor(Math.random() * rows);
+				y = 0;
+				currentDirection = 0;
+				break;
+		}
+
+		const colors = ["#e5c07b", "#61afef", "#c678dd", "#98c379"];
+		currentColor = colors[Math.floor(Math.random() * colors.length)];
+	}
+
+	function drawPipe() {
+		let newDirection;
+		if (Math.random() < 0.7) {
+			newDirection = currentDirection;
+		} else {
+			newDirection = (currentDirection + (Math.random() < 0.5 ? 1 : 3)) % 4;
+		}
+
+		const newX = x + directions[newDirection].x;
+		const newY = y + directions[newDirection].y;
+
+		if (currentDirection !== newDirection) {
+			const key = `${directions[currentDirection].x},${directions[currentDirection].y}:${directions[newDirection].x},${directions[newDirection].y}`;
+			grid[x][y] = `<span style="color:${currentColor}">${
+				chars[corners[key]] || grid[x][y]
+			}</span>`;
+		} else {
+			grid[x][y] = `<span style="color:${currentColor}">${
+				chars[directions[currentDirection].charIndex]
+			}</span>`;
+		}
+
+		if (newX >= 0 && newX < rows && newY >= 0 && newY < cols) {
+			x = newX;
+			y = newY;
+			currentDirection = newDirection;
+		} else {
+			startAtRandomEdge();
+		}
+
+		let output = "";
+		for (let i = 0; i < rows; i++) {
+			for (let j = 0; j < cols; j++) {
+				output += grid[i][j];
+			}
+			output += "\n";
+		}
+		pipeElement.innerHTML =
+			"<pre style='white-space: pre'>" + output + "</pre>";
+
+		// Increase the interval by 10 milliseconds
+		interval += intervalIncrement;
+		// Clear the current interval
+		clearInterval(intervalId);
+		// Set a new interval with the updated interval time
+		intervalId = setInterval(drawPipe, interval);
+	}
+
+	startAtRandomEdge();
+	intervalId = setInterval(drawPipe, interval);
+
+	window.addEventListener("resize", () => {
+		// Stop the current interval
+		clearInterval(intervalId);
+
+		// Recalculate the grid size based on the new container dimensions
+		const newSize = calculateGridSize();
+		rows = newSize.rows;
+		cols = newSize.cols;
+
+		// Create a new grid with the updated size
+		const newGrid = Array(rows)
+			.fill()
+			.map(() => Array(cols).fill(" "));
+
+		// Copy the existing pipe positions to the new grid
+		for (let i = 0; i < Math.min(grid.length, newGrid.length); i++) {
+			for (let j = 0; j < Math.min(grid[i].length, newGrid[i].length); j++) {
+				newGrid[i][j] = grid[i][j];
+			}
+		}
+
+		grid = newGrid;
+
+		// Restart the interval to continue drawing pipes
+		intervalId = setInterval(drawPipe, interval);
+	});
+}
+
 async function init() {
+	window.onload = pipes;
 	initKeyboardListeners();
 	initMouseListeners();
 	initTouchListeners();
