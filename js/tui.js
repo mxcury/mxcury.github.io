@@ -275,8 +275,6 @@ async function displayContent() {
 
 		clearMainContent();
 		MAIN_CONTENT_SECTION.appendChild(outerContainerElement);
-
-		colorizeCode();
 	} else {
 		const logoFileName = `images/icons/logo.svg`;
 		const logoContainer = document.createElement("div");
