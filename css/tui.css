@@ -99,6 +99,7 @@ svg {
 	flex-direction: column;
 	gap: 0.8rem;
 	width: 25%;
+	overflow: hidden; /* Prevents scrolling of the parent div */
 }
 
 #right-section {
@@ -159,6 +160,7 @@ svg {
 	padding: 0.2rem 0.2rem 0.4rem;
 	flex: 1;
 	max-height: 100%;
+	overflow: hidden; /* Ensure the container itself does not show scrollbars */
 }
 
 .container-content {
@@ -497,26 +499,3 @@ div.selected-frame > ::-webkit-scrollbar-thumb {
 #mobile-help {
 	display: none;
 }
-
-/* #left-section {
-	display: flex;
-	flex-direction: column;
-	gap: 0.8rem;
-	width: 25%;
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-	padding: 0.2rem 0.2rem 0.4rem;
-	flex: 1;
-	max-height: 100%;
-}
-
-.container-content {
-	flex-grow: 1;
-	overflow-y: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-} */
