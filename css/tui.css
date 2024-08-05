@@ -99,9 +99,6 @@ svg {
 	flex-direction: column;
 	gap: 0.8rem;
 	width: 25%;
-	box-sizing: border-box;
-	/* position: relative; */
-	/* overflow: hidden; */
 }
 
 #right-section {

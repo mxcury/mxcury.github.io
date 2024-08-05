@@ -653,15 +653,17 @@ function pipes() {
 		const newX = x + directions[newDirection].x;
 		const newY = y + directions[newDirection].y;
 
-		if (currentDirection !== newDirection) {
-			const key = `${directions[currentDirection].x},${directions[currentDirection].y}:${directions[newDirection].x},${directions[newDirection].y}`;
-			grid[x][y] = `<span style="color:${currentColor}">${
-				chars[corners[key]] || grid[x][y]
-			}</span>`;
-		} else {
-			grid[x][y] = `<span style="color:${currentColor}">${
-				chars[directions[currentDirection].charIndex]
-			}</span>`;
+		if (x >= 0 && x < rows && y >= 0 && y < cols) {
+			if (currentDirection !== newDirection) {
+				const key = `${directions[currentDirection].x},${directions[currentDirection].y}:${directions[newDirection].x},${directions[newDirection].y}`;
+				grid[x][y] = `<span style="color:${currentColor}">${
+					chars[corners[key]] || grid[x][y]
+				}</span>`;
+			} else {
+				grid[x][y] = `<span style="color:${currentColor}">${
+					chars[directions[currentDirection].charIndex]
+				}</span>`;
+			}
 		}
 
 		if (newX >= 0 && newX < rows && newY >= 0 && newY < cols) {
