@@ -9,7 +9,7 @@
 				"Using Java, I have developed {{enterprise-level applications}} and {{build tools}} for other applications.",
 				"It is a powerful language for {{object-oriented programming}} and {{large-scale systems}}."
 			],
-			"percentage": 75
+			"percentage": 85
 		},
 		{
 			"name": "Python",
@@ -20,7 +20,7 @@
 				"Using Python, I have developed both {{data pipelines}}, and {{ML models}}.",
 				"I have used it for {{rapid prototyping}} and {{scientific computing}} such ML models and gathering data insights."
 			],
-			"percentage": 85
+			"percentage": 75
 		},
 		{
 			"name": "C/C++",
@@ -42,7 +42,7 @@
 				"Using Golang, I have developed gained insight on {{concurrent & distributed systems}} as well as building {{APIs}} for {{cloud services}}.",
 				"It is a powerful language for {{concurrency}} and {{scalable software}}."
 			],
-			"percentage": 65
+			"percentage": 70
 		},
 		{
 			"name": "Rust",
@@ -63,7 +63,7 @@
 				"Using Bash, I have created {{automation scripts}}, {{system monitoring}}, and {{task automation}}.",
 				"It is a powerful tool for {{Unix-based systems}} and {{administrative tasks}}."
 			],
-			"percentage": 75
+			"percentage": 85
 		},
 		{
 			"name": "HTML",
@@ -74,7 +74,7 @@
 				"With HTML, I have built numerous {{websites}} and {{web applications}}, ensuring semantic markup.",
 				"I have utilized HTML for nearly {{5 years}}, making it a core skill in my {{development toolkit}}."
 			],
-			"percentage": 90
+			"percentage": 80
 		},
 		{
 			"name": "CSS",
@@ -85,7 +85,7 @@
 				"Over the years, I have used CSS for {{layout design}}, {{animations}}, and {{responsive design}}.",
 				"CSS is a powerful tool for ensuring that web content is {{accessible}} and {{engaging}}."
 			],
-			"percentage": 85
+			"percentage": 80
 		},
 		{
 			"name": "Tailwind CSS",
@@ -96,7 +96,7 @@
 				"With Tailwind, I have built {{scalable}} and {{maintainable}} web interfaces.",
 				"It has been instrumental in improving my {{development speed}} and {{design accuracy}}."
 			],
-			"percentage": 75
+			"percentage": 85
 		},
 		{
 			"name": "JavaScript",
@@ -148,7 +148,7 @@
 				"Using Couchbase, I have developed applications requiring {{high performance}} and {{low latency}}.",
 				"It has been essential for {{real-time data processing}} and {{distributed database systems}}."
 			],
-			"percentage": 60
+			"percentage": 80
 		},
 		{
 			"name": "Docker",
@@ -159,7 +159,7 @@
 				"I have used Docker for {{development environments}} such as running SDK code on linux image for users to easily start up applications.",
 				"It enhances {{portability}} and {{resource efficiency}} across various development stages."
 			],
-			"percentage": 70
+			"percentage": 85
 		},
 		{
 			"name": "AWS",
@@ -170,7 +170,7 @@
 				"Using AWS, I have implemented {{cloud storage}} using S3 buckets, {{computing}}, and {{networking services}}.",
 				"It has been essential for {{scalable deployments}} and building applications."
 			],
-			"percentage": 65
+			"percentage": 70
 		},
 		{
 			"name": "Terraform",
@@ -214,7 +214,7 @@
 				"Using Linux, I have managed {{networking}}, {{security}}, and {{system administration}} tasks.",
 				"It is a reliable platform for {{development}} and {{deployment}} of applications."
 			],
-			"percentage": 80
+			"percentage": 85
 		}
 	]
 }
