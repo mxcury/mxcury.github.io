@@ -263,16 +263,24 @@ pre {
 
 /* Progress bar container styling */
 .progress-bar-container {
-	width: 100%;
-	margin-bottom: 10px;
-	font-family: monospace; /* Monospaced font for terminal-like appearance */
+	display: flex;
+	align-items: center; /* Align items vertically centered */
 }
 
 /* Progress bar styling */
-.progress-bar {
-	color: var(--green); /* Bright green for terminal style */
-	white-space: pre; /* Preserve whitespace */
-	font-size: 16px; /* Adjust the font size as needed */
+.progress-bar,
+.progress-bracket {
+	font-family: monospace; /* Keep the terminal-like appearance */
+	color: var(--green); /* Use the terminal green color */
+	white-space: pre; /* Preserve whitespace in the progress bar */
+	font-size: 16px;
+}
+
+/* Percentage styling */
+.progress-percentage {
+	color: var(--green); /* Same green color */
+	font-size: 16px; /* Adjust the font size */
+	margin-left: 10px; /* Add some space between the progress bar and percentage */
 }
 
 .scrollable {
@@ -701,5 +709,31 @@ div.selected-frame > ::-webkit-scrollbar-thumb {
 
 	.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 		transform: rotate(-45deg);
+	}
+
+	/* Progress bar container styling */
+	.progress-bar-container {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		overflow: hidden; /* Prevents overflow */
+		box-sizing: border-box; /* Includes padding and border in width calculation */
+	}
+
+	/* Progress bar styling */
+	.progress-bar {
+		font-family: monospace;
+		color: var(--green);
+		white-space: nowrap; /* Keeps the progress bar on a single line */
+		font-size: 16px; /* Adjust font size if needed */
+		overflow: hidden; /* Prevents overflow */
+	}
+
+	/* Percentage styling */
+	.progress-percentage {
+		color: var(--green);
+		font-size: 16px;
+		margin-left: 10px;
+		white-space: nowrap; /* Keeps the percentage on a single line */
 	}
 }

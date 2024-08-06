@@ -136,12 +136,17 @@ async function displayContent() {
 
 			topElement.appendChild(nameLogoContainer);
 
-			// Create and append progress bar
+			// Create and append progress bar container
 			const progressBarContainer = document.createElement("div");
 			progressBarContainer.classList.add("progress-bar-container");
 
-			const progressBar = document.createElement("pre"); // Use <pre> for preserving whitespace
+			// Create the div for the progress bar
+			const progressBar = document.createElement("div");
 			progressBar.classList.add("progress-bar");
+
+			// Create the div for the percentage
+			const progressPercentage = document.createElement("div");
+			progressPercentage.classList.add("progress-percentage");
 
 			// Calculate the progress text
 			const percentage = sectionData.percentage;
@@ -152,10 +157,13 @@ async function displayContent() {
 			const filledPart = "=".repeat(filledLength);
 			const emptyPart = " ".repeat(emptyLength);
 
-			progressBar.innerText = `[${filledPart}${emptyPart}] ${percentage}%`;
+			// Set the inner text for the progress bar and percentage
+			progressBar.innerText = `[${filledPart}${emptyPart}]`;
+			progressPercentage.innerText = `${percentage}%`;
 
-			// Append to the container
+			// Append the progress bar and percentage to the container
 			progressBarContainer.appendChild(progressBar);
+			progressBarContainer.appendChild(progressPercentage);
 			topElement.appendChild(progressBarContainer);
 		} else {
 			// Display name for other sections
