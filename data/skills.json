@@ -102,7 +102,7 @@
 			"name": "JavaScript",
 			"logo": "images/icons/js.svg",
 			"content": [
-				"I have used {{JavaScript}},make the content of my websites {{interactive}}.",
+				"I have used {{JavaScript}} to make the content of my websites {{interactive}}.",
 				"I have been using JavaScript for nearly {{3 years}} to build solutions from {{websites}} to {{mobile apps}}."
 			],
 			"percentage": 80
