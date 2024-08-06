@@ -99,7 +99,6 @@ svg {
 	flex-direction: column;
 	gap: 0.8rem;
 	width: 25%;
-	overflow: hidden; /* Prevents scrolling of the parent div */
 }
 
 #right-section {
@@ -156,18 +155,20 @@ svg {
 	display: flex;
 	flex-direction: column;
 	border: 0.1px solid var(--primary-txt);
-	position: relative;
 	padding: 0.2rem 0.2rem 0.4rem;
+	position: relative;
+	height: 33%;
 	flex: 1;
-	max-height: 100%;
-	overflow: hidden; /* Ensure the container itself does not show scrollbars */
+}
+
+#pipes {
+	padding-bottom: 0rem;
 }
 
 .container-content {
 	display: flex;
 	flex-direction: column;
-	overflow: hidden; /* Ensure no scrollbars */
-	flex: 1;
+	overflow: hidden;
 }
 
 #left-section .container:hover:not(.selected-frame) {
@@ -300,7 +301,7 @@ pre {
 
 .decorating-text {
 	position: absolute;
-	padding: 0 0.4rem;
+	padding: 0 0.1rem;
 	width: fit-content;
 }
 
@@ -327,7 +328,6 @@ pre {
 	bottom: -12px;
 	align-self: flex-end;
 }
-
 .ui-list {
 	display: flex;
 	flex-direction: column;
