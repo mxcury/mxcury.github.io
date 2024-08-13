@@ -388,8 +388,6 @@ async function render(scrollToTop = false, isInitialRender = false) {
 		} of ${currentSection.items.length}`;
 	}
 
-	// FIXME: not optimal, sometimes, jumps a bit too far
-	// but it doesn't impair the user experience too much
 	if (scrollableContainerElement != null && currentSectionItemElement != null) {
 		if (
 			!isVisibleInScrollView(
@@ -496,7 +494,6 @@ function scrollMainContentUp() {
 }
 
 function initKeyboardListeners() {
-	// CTRL key is only captured on keydown/keyup
 	addEventListener("keydown", async (event) => {
 		let scrollToTop = false;
 		const { key, code, ctrlKey } = event;
@@ -534,7 +531,6 @@ function initKeyboardListeners() {
 			goToSection(sectionNumber);
 			scrollToTop = true;
 		} else {
-			// Just here to avoid rendering on every keypress
 			return;
 		}
 

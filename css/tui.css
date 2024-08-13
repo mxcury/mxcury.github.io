@@ -724,7 +724,7 @@ div.selected-frame > ::-webkit-scrollbar-thumb {
 	.progress-bar {
 		font-family: monospace;
 		color: var(--green);
-		white-space: nowrap; /* Keeps the progress bar on a single line */
+		white-space: pre; /* Keeps the progress bar on a single line */
 		font-size: 16px; /* Adjust font size if needed */
 		overflow: hidden; /* Prevents overflow */
 	}
