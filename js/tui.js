@@ -157,9 +157,31 @@ async function displayContent() {
 			const filledPart = "=".repeat(filledLength);
 			const emptyPart = " ".repeat(emptyLength);
 
-			// Set the inner text for the progress bar and percentage
-			progressBar.innerText = `[${filledPart}${emptyPart}]`;
-			progressPercentage.innerText = `${percentage}%`;
+			// Function to update progress display based on screen size
+			function updateProgressDisplay() {
+				if (window.innerWidth <= 768) {
+					// Adjust this value based on your mobile breakpoint
+					if (percentage >= 80) {
+						progressBar.innerText = "Experienced";
+					} else if (percentage >= 70) {
+						progressBar.innerText = "Intermediate";
+					} else if (percentage >= 60) {
+						progressBar.innerText = "Basic";
+					} else {
+						progressBar.innerText = "Beginner";
+					}
+					progressPercentage.innerText = ""; // Clear percentage in mobile view
+				} else {
+					progressBar.innerText = `[${filledPart}${emptyPart}]`;
+					progressPercentage.innerText = `${percentage}%`;
+				}
+			}
+
+			// Initial display update
+			updateProgressDisplay();
+
+			// Update progress display on window resize
+			window.addEventListener("resize", updateProgressDisplay);
 
 			// Append the progress bar and percentage to the container
 			progressBarContainer.appendChild(progressBar);
