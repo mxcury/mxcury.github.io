@@ -20,11 +20,11 @@
 			"images": ["fundflow-ui.png"]
 		},
 		{
-			"name": "Slime Mould Colony Simulation",
+			"name": "Physarum Simulation",
 			"year": 2024,
-			"githubUrl": "https://github.com/mxcury/slimeMoldColony",
+			"githubUrl": "https://github.com/mxcury/Physarum-Simulation",
 			"content": [
-				"The {{Slime Mould Colony Simulation}} is a {{C++}} project that models the behavior of the slime mold Physarum polycephalum.",
+				"The {{Physarum}} is a {{C++}} project utilising SLD2 that models the behavior of the slime mold Physarum polycephalum.",
 				"In this simulation, {{complex patterns}} and {{evolutionary behaviors}} emerge from the interactions of simple, {{particle-like agents}} governed by a straightforward {{local ruleset}}.",
 				"The project demonstrates how intricate structures can arise from basic algorithms, reflecting the {{self-organizing}} nature of {{biological systems}}."
 			],
@@ -41,7 +41,7 @@
 				"The custom language supports basic {{control structures}} and {{data types}}, allowing for simple program logic.",
 				"Through this project, I gained a deeper understanding of {{language design}} and {{compiler theory}}."
 			],
-			"technologies": ["{{Python}}"],
+			"technologies": ["{{C}}"],
 			"images": ["p_cubed.png"]
 		},
 		{
